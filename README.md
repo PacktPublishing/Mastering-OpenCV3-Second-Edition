@@ -12,18 +12,9 @@ Each chapter of the book is for a separate project. Therefore there are 7 projec
 You can run each project separately, they each contain a README.md text file describing how to build that project, using CMake in most cases, because CMake can be used with many compilers and many operating systems.
 
 To build & run the projects for the book:
---------------------------------------------------------------------------------
-- Install OpenCV (version 3.1.0 is recommended, whereas OpenCV 2 is only supported in the 1st edition of this book). eg: go to "http://opencv.org/", click on
-  Downloads, download the latest OpenCV 3.1 version (including prebuilt library), and extract
-  it to "C:\OpenCV" for Windows or "~/OpenCV" for Linux. In OpenCV v3.1.0, the
-  prebuilt OpenCV library is in "C:\OpenCV\build" or "~/OpenCV/build", such as
-  "C:\OpenCV\build\x64\vc9" for MS Visual Studio 2008 (or "vs10" folder for MS 
-  Visual Studio 2010, or the "x86" parent folder for 32-bit Windows).
-
-- Install all the source code of the book. eg: extract the code to
-  "C:\MasteringOpenCV" for Windows or "~/MasteringOpenCV" for Linux.
-  
-- Install CMake v2.8 or later from "http://www.cmake.org/".
+* Install OpenCV (version 3.1.0 is recommended, whereas OpenCV 2 is only supported in the 1st edition of this book). eg: go to "http://opencv.org/", click on Downloads, download the latest OpenCV 3.1 version (including prebuilt library), and extract it to "C:\OpenCV" for Windows or "~/OpenCV" for Linux. In OpenCV v3.1.0, the prebuilt OpenCV library is in "C:\OpenCV\build" or "~/OpenCV/build", such as "C:\OpenCV\build\x64\vc9" for MS Visual Studio 2008 (or "vs10" folder for MS Visual Studio 2010, or the "x86" parent folder for 32-bit Windows).
+* Install all the source code of the book. eg: extract the code to "C:\MasteringOpenCV" for Windows or "~/MasteringOpenCV" for Linux.
+* Install CMake v2.8 or later from "http://www.cmake.org/".
 
 The code will look like the following:
 ```
@@ -36,10 +27,9 @@ cv::VideoCapture capture
 
 you will also need a computer, and IDE of your choice (such as Visual Studio, XCode, Eclipse, or QtCreator, running on Windows, Mac, or Linux). Some chapters have further requirements, in particular:
 
-To develop an OpenCV program for Raspberry Pi, you will need the Raspberry Pi device, its tools, and basic Raspberry Pi development experience.
-To develop an iOS app, you will need an iPhone, iPad, or iPod Touch device, iOS development tools (including an Apple computer, XCode IDE, and an Apple Developer Certificate), and basic iOS and Objective-C development experience.
-Several desktop projects require a webcam connected to your computer. Any common USB webcam should suffice, but a webcam of at least 1 megapixel may be desirable.
-CMake is used in some projects, including OpenCV itself, to build across operating systems and compilers. A basic understanding of build systems is required, and knowledge of cross-platform building is recommended.
+* To develop an OpenCV program for Raspberry Pi, you will need the Raspberry Pi device, its tools, and basic Raspberry Pi development experience.
+* Several desktop projects require a webcam connected to your computer. Any common USB webcam should suffice, but a webcam of at least 1 megapixel may be desirable.
+* CMake is used in some projects, including OpenCV itself, to build across operating systems and compilers. A basic understanding of build systems is required, and knowledge of cross-platform building is recommended.
 
 An understanding of linear algebra is expected, such as basic vector and matrix operations, and eigen decomposition.
 
